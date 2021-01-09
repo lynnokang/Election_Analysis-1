@@ -1,6 +1,17 @@
 print("Hello World")
 counties =["Arapahoe","Denver","Jefferson"]
 print (counties)
+print (counties)
+if counties[1] =="Denver":
+    print(counties[1])
+    
+   
+
+
+
+
+
+
 # The data we need to retrieve
 #The total number of vote cast
 #A complete list of candidates who received votes
