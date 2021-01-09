@@ -15,6 +15,14 @@ else:
     else:
         print("Arapahoe is in the list of counties and El Paso is not in the list of counties.")
 
+for county in counties:
+    print(county)
+    counties_dict ={"Arapahoe":422829, "Denver":463353,"Jefferson":432438}
+    for county in counties_dict:
+        print(county)
+
+
+
 
 
 
