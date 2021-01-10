@@ -38,28 +38,30 @@ for county in counties:
             print(county_dict["registered_voters"])
         for county_dict in voting_data:
             print(county_dict["county"])
+        
+        for county_dict in voting_data:
+            for value in county_dict.values():
+                print(value) 
 
-           
+        counties_dict = {"Arapahoe": 369237, "Denver":413229, "Jefferson": 390222}
+        for county, voters in counties_dict.items():
+                 print(county + " county has " + str(voters) + " registered voters.")
+        
+        for county, voters in counties_dict.items():
+            print(f"{county} county has {voters} registered voters.")
+
+        candidate_votes = int(input(3345))
+        total_votes = int(input(23123))
+        message_to_candidate =(
+            f"You received {candidate_votes:,} number of votes. "
+            f"The total number of votes in the election was {total_votes: ,}. "
+            f"You received {candidate_votes / total_votes * 100:.2f} % of the total votes.")
+
+        print(message_to_candidate)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
+        
 
 
 # The data we need to retrieve
