@@ -42,6 +42,44 @@ outfile.write("Hello World")
 outfile.close()
 # Create a filename variable to a direct or indirect path to the file.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
+with open(file_to_save, "w") as txt_file:
+    txt_file.write("Arapahoe")
+    txt_file.write("Denver")
+    txt_file.write("Jefferson")
+election_data = open(file_to_load, 'r')
+election_data.close()
+with open(file_to_load) as election_data:
+    print(election_data)
+import csv
+import os
+file_to_load =os.path.join("Resources", "election_results.csv")
+with open(file_to_load) as election_data:
+    print(election_data)
+
+file_to_save = os.path.join("analysis", "election_analysis.txt")
+open(file_to_save, "w")
+file_to_save = os.path.join("analysis", "election_analysis.txt")
+outfile = open(file_to_save, "w")
+outfile.write("Hello World")
+outfile.close()
+
+file_to_save = os.path.join("analysis", "election_analysis.txt")
+with open(file_to_save, "w") as txt_file:
+    txt_file.write("Arapahoe, ")
+    txt_file.write("Denver, ")
+    txt_file.write("Jefferson")
+
+file_to_save =os.path.join("analysis", "election_analysis.txt")
+with open(file_to_save, "w") as txt_file:
+    txt_file.write("Arapahoe\nDenver\nJefferson")
+    
+
+
+
+
+
+
+
 
 
 
