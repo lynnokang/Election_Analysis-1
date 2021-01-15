@@ -71,8 +71,9 @@ with open(file_to_save, "w") as txt_file:
 
 file_to_save =os.path.join("analysis", "election_analysis.txt")
 with open(file_to_save, "w") as txt_file:
-    txt_file.write("Arapahoe\nDenver\nJefferson")
-    
+    txt_file.write("counties in the Election\nArapahoe\nDenver\nJefferson")
+
+
 
 
 
